@@ -139,7 +139,9 @@
           <div class="percent percent-ugly"><span class="percent-bar percent-bar-ugly" data-per="0"></span></div>
         </li>
       </ul>
-
+      <div class="reload">
+        <button class="reload-btn text" onclick="location.reload();"><i class="fas fa-redo-alt"></i>&nbsp;もう一回やる</button>
+      </div>
       <!-- Go to www.addthis.com/dashboard to customize your tools -->
       <div class="addthis text">
         <div>共有</div>
@@ -241,6 +243,7 @@
         drawingProgressBar();
         $(".remove-image").hide();
         $(".addthis").show();
+        $(".reload").show();
         $(".loading").hide();
       }
     </script>
